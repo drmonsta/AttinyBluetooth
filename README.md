@@ -1,7 +1,7 @@
 # AttinyBluetooth
 Android app and Arduino code for controlling an LED over Bluetooth
 
-Developed for HackPSU 2015
+Developed for HackPSU 2015 by Joshua Smith (joshua@psu.edu)
 
 ### Hardware
 <ul>

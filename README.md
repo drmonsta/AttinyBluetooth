@@ -15,7 +15,7 @@ attiny85 pinout:
 How to program the attiny85 using an Arduino Uno: http://highlowtech.org/?p=1695
 
 Connect the attiny to the JY-MCU Bluetooth adapter as shown:
-
+![schematic](https://cloud.githubusercontent.com/assets/10324727/6881549/42ada8d0-d53a-11e4-8102-1591041beee5.png)
 
 ## STEP 3: Programming the attiny85
 

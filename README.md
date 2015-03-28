@@ -16,7 +16,7 @@ Developed for HackPSU 2015 by Joshua Smith (joshua@psu.edu)
   <li>USB cable as for power supply</li>
 </ul>
 
-### STEP 1: Setting up the environment
+### STEP 1: Setting up the software environment
 
 Install Arduino software: http://arduino.cc/en/Main/Software
 
@@ -39,7 +39,7 @@ In Arduino 1.6.1, create a new sketch and copy the contents of AttinyBluetoothDe
 
 Compile the sketch and send it to the attiny
 
-### STEP 4: Programming the Android App
+### STEP 4: Programming the Android application
 
 Start a new Android Studio project for Android 4.0.3+, then copy the contents of AttinyBluetooth.java into your main java class, modifying the package name and class name to match yours
 

@@ -7,13 +7,25 @@ Install Arduino software: http://arduino.cc/en/Main/Software
 
 Install Android Studio: http://developer.android.com/sdk/index.html
 
-## STEP 2: Setting up and programming the attiny85
+## STEP 2: Setting up the hardware
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+attiny85 pinout:
+![adafruit_products_pinout](https://cloud.githubusercontent.com/assets/10324727/6881464/b36e9ab4-d537-11e4-95be-b76ac9f75334.gif)
 
-## STEP 3: Programming the Android App
+How to program the attiny85 using an Arduino Uno: http://highlowtech.org/?p=1695
 
-Start a new Android Studio project for Android 4.0.3+, then copy the contents of AttinyBluetooth.java into your main java class, modifying the package name and class name to match yours.
+Connect the attiny to the JY-MCU Bluetooth adapter as shown:
+
+
+## STEP 3: Programming the attiny85
+
+In Arduino 1.6.1, create a new sketch and copy the contents of AttinyBluetoothDemo.ino to it
+
+Compile the sketch and send it to the attiny
+
+## STEP 4: Programming the Android App
+
+Start a new Android Studio project for Android 4.0.3+, then copy the contents of AttinyBluetooth.java into your main java class, modifying the package name and class name to match yours
 
 Go to https://www.uuidgenerator.net/ to generate a new random UUID for MY_UUID
 

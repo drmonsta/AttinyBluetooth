@@ -29,8 +29,9 @@ Start a new Android Studio project for Android 4.0.3+, then copy the contents of
 
 Go to https://www.uuidgenerator.net/ to generate a new random UUID for MY_UUID
 
-In AndroidManifest.xml, add this line before the closing </manifest> tag:
+In AndroidManifest.xml, add this line before the closing manifest tag:
+```java
 <uses-permission android:name="android.permission.BLUETOOTH" />
-
+```
 In the activity layout xml, add a button with the name "toggleButton"
 

@@ -7,6 +7,8 @@ Install Arduino software: http://arduino.cc/en/Main/Software
 
 Install Android Studio: http://developer.android.com/sdk/index.html
 
+Ensure the ADB drivers are installed if using Windows
+
 ## STEP 2: Setting up the hardware
 
 attiny85 pinout:
@@ -35,3 +37,24 @@ In AndroidManifest.xml, add this line before the closing manifest tag:
 ```
 In the activity layout xml, add a button with the name "toggleButton"
 
+## STEP 5: Connect the circuit and run the application
+
+Connect the circuit to a power source (USB)
+
+Pair your android phone with the JY-MCU (HC-06) Bluetooth adapter
+
+Connect your phone to the computer with Android Studio and enable USB debugging
+
+Run the app by pressing the green arrow in Android Studio and selecting your phone for debugging
+
+## Challenge: adding functionality
+
+Expand upon this system. Integrate a fader for the LED using PWM and a slider control, make a Bluetooth morse code transceiver, or implement features of your own design! Feel free to add your own hardware and software components.
+
+This tutorial only shows how to send data to the attiny85. Try using the attiny85 to communicate back to the phone!
+Hint, use the following arduino code to send characters over Bluetooth:
+```arduino
+Bluetooth.println();
+```
+
+The prize for the most creative adaption of this example will be a JY-MCU Bluetooth adapter!
